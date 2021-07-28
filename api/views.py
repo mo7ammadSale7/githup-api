@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def git_data_form_github(request):
+    pass
