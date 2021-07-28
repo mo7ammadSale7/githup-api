@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from api.views import git_data_form_github
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', git_data_form_github)
 ]
